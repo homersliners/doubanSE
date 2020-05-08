@@ -1,0 +1,603 @@
+{
+    "rating": {
+        "max": 10,
+        "average": 9.7,
+        "details": {
+            "1": 1570.0,
+            "3": 20876.0,
+            "2": 1274.0,
+            "5": 1356200.0,
+            "4": 213833.0
+        },
+        "stars": "50",
+        "min": 0
+    },
+    "reviews_count": 9894,
+    "videos": [
+        {
+            "source": {
+                "literal": "qq",
+                "pic": "https://img9.doubanio.com/f/movie/0a74f4379607fa731489d7f34daa545df9481fa0/pics/movie/video-qq.png",
+                "name": "腾讯视频"
+            },
+            "sample_link": "http://v.qq.com/x/cover/1o29ui77e85grdr.html?ptag=douban.movie",
+            "video_id": "1o29ui77e85grdr",
+            "need_pay": true
+        },
+        {
+            "source": {
+                "literal": "iqiyi",
+                "pic": "https://img9.doubanio.com/f/movie/7c9e516e02c6fe445b6559c0dd2a705e8b17d1c9/pics/movie/video-iqiyi.png",
+                "name": "爱奇艺视频"
+            },
+            "sample_link": "http://www.iqiyi.com/v_19rra0h3wg.html?vfm=m_331_dbdy&fv=4904d94982104144a1548dd9040df241",
+            "video_id": "19rra0h3wg",
+            "need_pay": true
+        },
+        {
+            "source": {
+                "literal": "youku",
+                "pic": "https://img9.doubanio.com/f/movie/886b26a83d18bc60de4ee1daac38145f03c88792/pics/movie/video-youku.png",
+                "name": "优酷视频"
+            },
+            "sample_link": "http://v.youku.com/v_show/id_XMjgwNDkwNzE2.html?tpa=dW5pb25faWQ9MzAwMDA4XzEwMDAwMl8wMl8wMQ&refer=esfhz_operation.xuka.xj_00003036_000000_FNZfau_19010900",
+            "video_id": "XMjgwNDkwNzE2",
+            "need_pay": true
+        },
+        {
+            "source": {
+                "literal": "bilibili",
+                "pic": "https://img9.doubanio.com/f/movie/f536fe0ea1cbb0914658ae803125d078351f9047/pics/movie/video-bilibili.png",
+                "name": "哔哩哔哩"
+            },
+            "sample_link": "https://www.bilibili.com/bangumi/play/ss28274?bsource=douban",
+            "video_id": "ss28274",
+            "need_pay": false
+        }
+    ],
+    "wish_count": 301550,
+    "original_title": "The Shawshank Redemption",
+    "blooper_urls": [],
+    "collect_count": 2890798,
+    "images": {
+        "small": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg",
+        "large": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg",
+        "medium": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg"
+    },
+    "douban_site": "",
+    "year": "1994",
+    "popular_comments": [
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "useful_count": 1730,
+            "author": {
+                "uid": "jennyqueen",
+                "avatar": "https://img9.doubanio.com/icon/u1311269-2426.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/jennyqueen/",
+                "id": "1311269",
+                "name": "珍妮的肖像"
+            },
+            "subject_id": "1292052",
+            "content": "没有人会不喜欢吧！书和电影都好。",
+            "created_at": "2006-11-13 08:41:13",
+            "id": "7096858"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 4.0,
+                "min": 0
+            },
+            "useful_count": 1455,
+            "author": {
+                "uid": "MonicaLi",
+                "avatar": "https://img9.doubanio.com/icon/u15133636-167.jpg",
+                "signature": "谨言慎行",
+                "alt": "https://www.douban.com/people/MonicaLi/",
+                "id": "15133636",
+                "name": "理想多钱一斤啊"
+            },
+            "subject_id": "1292052",
+            "content": "Hope is a good thing, and maybe the best thing of all.",
+            "created_at": "2009-10-07 19:58:08",
+            "id": "165800609"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "useful_count": 27336,
+            "author": {
+                "uid": "kingfish",
+                "avatar": "https://img9.doubanio.com/icon/u1123543-3.jpg",
+                "signature": "好像一直在歌唱",
+                "alt": "https://www.douban.com/people/kingfish/",
+                "id": "1123543",
+                "name": "kingfish"
+            },
+            "subject_id": "1292052",
+            "content": "不需要女主角的好电影",
+            "created_at": "2006-03-22 12:38:09",
+            "id": "2050003"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "useful_count": 9041,
+            "author": {
+                "uid": "aixiaoke",
+                "avatar": "https://img9.doubanio.com/icon/u1182135-29.jpg",
+                "signature": "脚踏实地，朴素为人。",
+                "alt": "https://www.douban.com/people/aixiaoke/",
+                "id": "1182135",
+                "name": "艾小柯"
+            },
+            "subject_id": "1292052",
+            "content": "关于希望最强有力的注释。",
+            "created_at": "2006-06-20 03:18:55",
+            "id": "3728484"
+        }
+    ],
+    "alt": "https://movie.douban.com/subject/1292052/",
+    "id": "1292052",
+    "mobile_url": "https://movie.douban.com/subject/1292052/mobile",
+    "photos_count": 697,
+    "pubdate": "",
+    "title": "肖申克的救赎",
+    "do_count": null,
+    "has_video": true,
+    "share_url": "https://m.douban.com/movie/subject/1292052",
+    "seasons_count": null,
+    "languages": [
+        "英语"
+    ],
+    "schedule_url": "",
+    "writers": [
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p230.jpg",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p230.jpg",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p230.jpg"
+            },
+            "name_en": "Frank Darabont",
+            "name": "弗兰克·德拉邦特",
+            "alt": "https://movie.douban.com/celebrity/1047973/",
+            "id": "1047973"
+        },
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1378040671.87.jpg",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1378040671.87.jpg",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1378040671.87.jpg"
+            },
+            "name_en": "Stephen King",
+            "name": "斯蒂芬·金",
+            "alt": "https://movie.douban.com/celebrity/1049547/",
+            "id": "1049547"
+        }
+    ],
+    "pubdates": [
+        "1994-09-10(多伦多电影节)",
+        "1994-10-14(美国)"
+    ],
+    "website": "",
+    "tags": [
+        "经典",
+        "励志",
+        "信念",
+        "自由",
+        "人性",
+        "人生",
+        "美国",
+        "希望",
+        "剧情",
+        "成长"
+    ],
+    "has_schedule": false,
+    "durations": [
+        "142分钟"
+    ],
+    "genres": [
+        "犯罪",
+        "剧情"
+    ],
+    "collection": null,
+    "trailers": [
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/2587159379.jpg?",
+            "title": "预告片：25周年经典重映 (中文字幕)",
+            "subject_id": "1292052",
+            "alt": "https://movie.douban.com/trailer/259258/",
+            "small": "https://img9.doubanio.com/img/trailer/small/2587159379.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202005061513/d60e9fdb6aaab76da29ef1da296a87fe/view/movie/M/302590258.mp4",
+            "id": "259258"
+        },
+        {
+            "medium": "https://img9.doubanio.com/img/trailer/medium/1433841022.jpg?",
+            "title": "预告片",
+            "subject_id": "1292052",
+            "alt": "https://movie.douban.com/trailer/108756/",
+            "small": "https://img9.doubanio.com/img/trailer/small/1433841022.jpg?",
+            "resource_url": "http://vt1.doubanio.com/202005061513/a400e4d0aa8f4e2072701a0651358ce2/view/movie/M/301080756.mp4",
+            "id": "108756"
+        }
+    ],
+    "episodes_count": null,
+    "trailer_urls": [
+        "http://vt1.doubanio.com/202005061513/d60e9fdb6aaab76da29ef1da296a87fe/view/movie/M/302590258.mp4",
+        "http://vt1.doubanio.com/202005061513/a400e4d0aa8f4e2072701a0651358ce2/view/movie/M/301080756.mp4"
+    ],
+    "has_ticket": false,
+    "bloopers": [],
+    "clip_urls": [],
+    "current_season": null,
+    "casts": [
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p17525.jpg",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p17525.jpg",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p17525.jpg"
+            },
+            "name_en": "Tim Robbins",
+            "name": "蒂姆·罗宾斯",
+            "alt": "https://movie.douban.com/celebrity/1054521/",
+            "id": "1054521"
+        },
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p34642.jpg",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p34642.jpg",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p34642.jpg"
+            },
+            "name_en": "Morgan Freeman",
+            "name": "摩根·弗里曼",
+            "alt": "https://movie.douban.com/celebrity/1054534/",
+            "id": "1054534"
+        },
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p5837.jpg",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p5837.jpg",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p5837.jpg"
+            },
+            "name_en": "Bob Gunton",
+            "name": "鲍勃·冈顿",
+            "alt": "https://movie.douban.com/celebrity/1041179/",
+            "id": "1041179"
+        },
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p7827.jpg",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p7827.jpg",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p7827.jpg"
+            },
+            "name_en": "William Sadler",
+            "name": "威廉姆·赛德勒",
+            "alt": "https://movie.douban.com/celebrity/1000095/",
+            "id": "1000095"
+        }
+    ],
+    "countries": [
+        "美国"
+    ],
+    "mainland_pubdate": "",
+    "photos": [
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p712907932.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p712907932.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p712907932.jpg",
+            "alt": "https://movie.douban.com/photos/photo/712907932/",
+            "id": "712907932",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p712907932.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2561714803.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2561714803.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2561714803.jpg",
+            "alt": "https://movie.douban.com/photos/photo/2561714803/",
+            "id": "2561714803",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2561714803.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p617951690.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p617951690.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p617951690.jpg",
+            "alt": "https://movie.douban.com/photos/photo/617951690/",
+            "id": "617951690",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p617951690.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p450994579.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p450994579.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p450994579.jpg",
+            "alt": "https://movie.douban.com/photos/photo/450994579/",
+            "id": "450994579",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p450994579.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p617951743.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p617951743.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p617951743.jpg",
+            "alt": "https://movie.douban.com/photos/photo/617951743/",
+            "id": "617951743",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p617951743.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p490576110.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p490576110.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p490576110.jpg",
+            "alt": "https://movie.douban.com/photos/photo/490576110/",
+            "id": "490576110",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p490576110.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p1225215490.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p1225215490.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p1225215490.jpg",
+            "alt": "https://movie.douban.com/photos/photo/1225215490/",
+            "id": "1225215490",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p1225215490.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p1004031025.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p1004031025.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p1004031025.jpg",
+            "alt": "https://movie.douban.com/photos/photo/1004031025/",
+            "id": "1004031025",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p1004031025.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p456482220.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p456482220.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p456482220.jpg",
+            "alt": "https://movie.douban.com/photos/photo/456482220/",
+            "id": "456482220",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p456482220.jpg"
+        },
+        {
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2309770674.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2309770674.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2309770674.jpg",
+            "alt": "https://movie.douban.com/photos/photo/2309770674/",
+            "id": "2309770674",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2309770674.jpg"
+        }
+    ],
+    "summary": "20世纪40年代末，小有成就的青年银行家安迪（蒂姆·罗宾斯 Tim Robbins 饰）因涉嫌杀害妻子及她的情人而锒铛入狱。在这座名为肖申克的监狱内，希望似乎虚无缥缈，终身监禁的惩罚无疑注定了安迪接下来灰暗绝望的人生。未过多久，安迪尝试接近囚犯中颇有声望的瑞德（摩根·弗里曼 Morgan Freeman 饰），请求对方帮自己搞来小锤子。以此为契机，二人逐渐熟稔，安迪也仿佛在鱼龙混杂、罪恶横生、黑白混淆的牢狱中找到属于自己的求生之道。他利用自身的专业知识，帮助监狱管理层逃税、洗黑钱，同时凭借与瑞德的交往在犯人中间也渐渐受到礼遇。表面看来，他已如瑞德那样对那堵高墙从憎恨转变为处之泰然，但是对自由的渴望仍促使他朝着心中的希望和目标前进。而关于其罪行的真相，似乎更使这一切朝前推进了一步……\n本片根据著名作家斯蒂芬·金（Stephen Edwin King）的原著改编。©豆瓣",
+    "clips": [],
+    "subtype": "movie",
+    "directors": [
+        {
+            "avatars": {
+                "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p230.jpg",
+                "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p230.jpg",
+                "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p230.jpg"
+            },
+            "name_en": "Frank Darabont",
+            "name": "弗兰克·德拉邦特",
+            "alt": "https://movie.douban.com/celebrity/1047973/",
+            "id": "1047973"
+        }
+    ],
+    "comments_count": 366546,
+    "popular_reviews": [
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "十年·肖申克的救赎",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "bighead",
+                "avatar": "https://img9.doubanio.com/icon/u1000152-23.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/bighead/",
+                "id": "1000152",
+                "name": "大头绿豆"
+            },
+            "summary": "距离斯蒂芬·金（Stephen King）和德拉邦特（Frank Darabont）们缔造这部伟大的作品已经有十年了。我知道美好的东西想必大家都能感受，但是很抱歉，我的聒噪仍将一如既往。 在我眼里，肖申克的救赎与信念、自由和...",
+            "alt": "https://movie.douban.com/review/1000369/",
+            "id": "1000369"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "终于找到了郁闷人生的原因――观《肖申克的救赎》有感",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "lazywormzhao",
+                "avatar": "https://img9.doubanio.com/icon/u1000564-1.jpg",
+                "signature": "隐居云上",
+                "alt": "https://www.douban.com/people/lazywormzhao/",
+                "id": "1000564",
+                "name": "隱居雲上"
+            },
+            "summary": " 周末看了一部美国影片《肖申克的救赎》（《The Shawshank Redemption》） 讲的是一位因冤案入狱的年轻银行家在牢中如何追寻自由的故事。 不同的人看同样的影片可能都有不同的感受。对于目前无力改变现状的我，看...",
+            "alt": "https://movie.douban.com/review/1001258/",
+            "id": "1001258"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "《肖申克的救赎》与斯德哥尔摩综合症－－你我都是患者！",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "1817888",
+                "avatar": "https://img9.doubanio.com/icon/u1817888-4.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/1817888/",
+                "id": "1817888",
+                "name": "中原狮子王"
+            },
+            "summary": "   斯德哥尔摩综合症（Stockholm syndrome），斯德哥尔摩效应，又称斯德哥尔摩症候群或者称为人质情结或人质综合症，是指犯罪的被害者对于犯罪者产生情感，甚至反过来帮助犯罪者的一种情结。这个情感造成被害人对...",
+            "alt": "https://movie.douban.com/review/1208594/",
+            "id": "1208594"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "Andy Dufresne",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "nakedfake",
+                "avatar": "https://img9.doubanio.com/icon/user_normal.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/nakedfake/",
+                "id": "1017620",
+                "name": "[已注销]"
+            },
+            "summary": "Andy Dufresne，一个永垂电影史册的名字。  1  关于《The Shawshank Redemption》的评论，太多，该说的差不多都已说了千万遍。对于这样一个热门的话题，再想要抒发一些个人的喜爱之情，不免有拾人牙慧之嫌。为了...",
+            "alt": "https://movie.douban.com/review/1019121/",
+            "id": "1019121"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "为何《肖申克的救赎》在IMDb和豆瓣都能排第一？",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "yalindongdong",
+                "avatar": "https://img9.doubanio.com/icon/u2586116-96.jpg",
+                "signature": "Life is wonderful !",
+                "alt": "https://www.douban.com/people/yalindongdong/",
+                "id": "2586116",
+                "name": "方枪枪"
+            },
+            "summary": "时间会证明经典的价值，虽然在某些时刻会被误判和忽视。 用上面这句话来描述电影《肖申克的救赎》丝毫不会让人觉得会有任何夸张和吹捧的意味，因为这部电影在后来多年牢牢占据IMDB和豆瓣电影榜单第一名的位置足以...",
+            "alt": "https://movie.douban.com/review/9259304/",
+            "id": "9259304"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "《肖申克的救赎》：1994—2007，希望就是现实",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "1317870",
+                "avatar": "https://img9.doubanio.com/icon/u1317870-33.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/1317870/",
+                "id": "1317870",
+                "name": "aratana"
+            },
+            "summary": "一、缘起  从来没想过给《肖申克的救赎》写一篇影评，也许是生怕暴露自己只是个不谙世事的初级影迷，也许是对这样一部无法复制的影片真的不愿去过多地提起。然而一场出其不意的重感冒让我只能卧床裹被，已没有了...",
+            "alt": "https://movie.douban.com/review/1127585/",
+            "id": "1127585"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "人生的过程就是一个摆脱institutionalization(体制化)的过程",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "suoliweng",
+                "avatar": "https://img9.doubanio.com/icon/u1026935-2.jpg",
+                "signature": "人乐有缘，诺以终身",
+                "alt": "https://www.douban.com/people/suoliweng/",
+                "id": "1026935",
+                "name": "蓑笠翁"
+            },
+            "summary": "现在好象比较时兴将人分为体制内和体制外的人,体制外的人通常有某种优越感,似乎自己的人格才是独立的.可实际上,真正愿意做体制外的人还是很少的,而且是很痛苦的.余杰北大硕士毕业后差一点进了他想进的国家图书馆...",
+            "alt": "https://movie.douban.com/review/1005528/",
+            "id": "1005528"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "《肖申克的救赎》台词整理",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "131064354",
+                "avatar": "https://img9.doubanio.com/icon/u131064354-9.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/131064354/",
+                "id": "131064354",
+                "name": "好美的美好"
+            },
+            "summary": "1．It takes a strong man to save himself, and a great man to save another. 强者救赎自己，圣人普度他人 2．Hope is a good thing, maybe the best of things, and no good thing ever dies. 希望是美好的，...",
+            "alt": "https://movie.douban.com/review/8649949/",
+            "id": "8649949"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "《肖申克的救赎》的一些幕后花絮",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "erichuang",
+                "avatar": "https://img9.doubanio.com/icon/u1187841-1.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/erichuang/",
+                "id": "1187841",
+                "name": "油爆虾"
+            },
+            "summary": " * 是否记得片尾有一行字幕\"In memory of Allen Greene\"？翻译成中文就是\"纪念Allen Greene \"。Allen Greene是《肖申克的救赎》编导Frank Darabont的经纪人，在影片完成 的前夕死于AIDS的并发症。 　　 　　* 是...",
+            "alt": "https://movie.douban.com/review/1062920/",
+            "id": "1062920"
+        },
+        {
+            "rating": {
+                "max": 5,
+                "value": 5.0,
+                "min": 0
+            },
+            "title": "关于“救赎”",
+            "subject_id": "1292052",
+            "author": {
+                "uid": "167539095",
+                "avatar": "https://img9.doubanio.com/icon/u167539095-1.jpg",
+                "signature": "",
+                "alt": "https://www.douban.com/people/167539095/",
+                "id": "167539095",
+                "name": "豆瓣的宇宙"
+            },
+            "summary": "个人感觉，《肖申克的救赎》（The Shawshank Redemption）中的Redemption的意思是“赎回;偿还;补救”，因此“救赎”非常完美地解释了这部电影的主题，围绕“救赎”主题的是： 1，安迪对自己的救赎：从一开始不让...",
+            "alt": "https://movie.douban.com/review/8848890/",
+            "id": "8848890"
+        }
+    ],
+    "ratings_count": 2005927,
+    "aka": [
+        "月黑高飞(港)",
+        "刺激1995(台)",
+        "地狱诺言",
+        "铁窗岁月",
+        "消香克的救赎"
+    ]
+}
