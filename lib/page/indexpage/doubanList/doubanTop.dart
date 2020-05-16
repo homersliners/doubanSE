@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flag/routers/shareApi.dart';
+import 'package:flag/api/shareApi.dart';
 
 class DoubanTopPage extends StatefulWidget {
   DoubanTopPage({Key key}) : super(key: key);

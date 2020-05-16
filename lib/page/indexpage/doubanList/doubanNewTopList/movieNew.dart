@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flag/assembly/starGrade.dart';
-import 'package:flag/routers/shareApi.dart';
+import 'package:flag/api/shareApi.dart';
 import 'package:dio/dio.dart';
 import 'dart:convert';
+import 'package:flag/assembly/loadProcess.dart';
 
 class MovieNewListPage extends StatefulWidget {
   MovieNewListPage({Key key}) : super(key: key);

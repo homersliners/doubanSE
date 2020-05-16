@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'dart:convert';
-import 'package:flag/routers/shareApi.dart';
+import 'package:flag/api/shareApi.dart';
 // import 'package:spon_rating_bar/spon_rating_bar.dart';
 // import 'package:flat_icons_flutter/flat_icons_flutter.dart';
 import 'package:flag/assembly/starGrade.dart';

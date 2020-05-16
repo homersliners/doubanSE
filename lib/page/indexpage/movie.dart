@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'dart:convert';
-import 'package:flag/routers/shareApi.dart';
+import 'package:flag/api/shareApi.dart';
 import 'package:flag/assembly/starGrade.dart';
+import 'package:flag/assembly/loadProcess.dart';
 
 class DetailmoviePage extends StatefulWidget {
   DetailmoviePage({Key key}) : super(key: key);
 
   DetailmoviePageState createState() => DetailmoviePageState();
+  //  Moviemore createState() => Moviemore();
 }
 
 class DetailmoviePageState extends State<DetailmoviePage> {
@@ -16,6 +18,10 @@ class DetailmoviePageState extends State<DetailmoviePage> {
   List moviebox = [];
   bool show = false;
   bool unloing = false;
+  String title;
+  DetailmoviePageState({this.title = "电影"});
+  //简介
+  bool showLong = false;
   _getApi() async {
     await getid();
     try {
@@ -34,14 +40,7 @@ class DetailmoviePageState extends State<DetailmoviePage> {
         unloing = true;
       });
       if (e.response != null) {
-        // print(e.response.data);
-        // print(e.response.headers);
-        // print(e.response.request);
-      } else {
-        // Something happened in setting up or sending the request that triggered an Error
-        // print(e.request);
-        // print(e.message);
-      }
+      } else {}
     }
   }
 
@@ -59,21 +58,17 @@ class DetailmoviePageState extends State<DetailmoviePage> {
     this._getApi();
   }
 
-  String title;
-  DetailmoviePageState({this.title = "电影"});
-  //简介
-  bool showLong = false;
   Widget showmore() {
     return InkWell(
-      // onTap: () {
-      //   setState(() {
-      //     // showLong = true;
-      //   });
-      // },
+      onTap: () {
+        setState(() {
+          // showLong = true;
+        });
+      },
       child: Text(
         moviebox[0]["summary"],
-        // maxLines: showLong == false ? 5 : null,
-        // overflow: showLong == false ? TextOverflow.ellipsis : TextOverflow.fade,
+        maxLines: showLong == false ? 5 : null,
+        overflow: showLong == false ? TextOverflow.ellipsis : TextOverflow.fade,
       ),
     );
   }
@@ -99,101 +94,62 @@ class DetailmoviePageState extends State<DetailmoviePage> {
   Widget actors() {
     List<Widget> tiles = [];
     Widget content;
+    for (var item in moviebox[0]["directors"]) {
+      tiles.add(new InkWell(
+          onTap: () {},
+          child: item["avatars"] != null
+              ? ListTile(
+                  title: Text(
+                    item["name"] + "（导演）",
+                  ),
+                  subtitle: Text(item["name_en"]),
+                  leading: CircleAvatar(
+                    maxRadius: 26,
+                    backgroundImage: NetworkImage(
+                      item["avatars"]["small"],
+                    ),
+                  ),
+                )
+              : Container()));
+    }
     for (var item in moviebox[0]["writers"]) {
       tiles.add(new InkWell(
-        onTap: () {
-          // print(item["id"]);
-        },
-        child: Container(
-          width: 75,
-          margin: EdgeInsets.fromLTRB(3, 8, 3, 8),
-          // color: Colors.greenAccent,
-          child: Column(children: <Widget>[
-            Card(
-              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
-              child: Container(
-                child: item["avatars"] != null
-                    ? Image.network(
-                        item["avatars"]["small"],
-                        fit: BoxFit.cover,
-                      )
-                    : Center(
-                        child: Text("搜不到人辣"),
-                      ),
-              ),
-            ),
-            Container(
-              alignment: Alignment.center,
-              margin: EdgeInsets.fromLTRB(0, 6, 0, 0),
-              child: Column(children: <Widget>[
-                Text(
-                  item["name"],
-                  maxLines: 1,
-                  style: TextStyle(fontSize: 12),
-                ),
-                Text(
-                  item["name_en"],
-                  maxLines: 1,
-                  style: TextStyle(fontSize: 8),
+          onTap: () {},
+          child: item["avatars"] != null
+              ? ListTile(
+                  title: Text(
+                    item["name"] + "（编剧）",
+                  ),
+                  subtitle: Text(item["name_en"]),
+                  leading: CircleAvatar(
+                    maxRadius: 26,
+                    backgroundImage: NetworkImage(
+                      item["avatars"]["small"],
+                    ),
+                  ),
                 )
-              ]),
-            )
-          ]),
-        ),
-      ));
+              : Container()));
     }
-    tiles.add(new Container(
-        width: 20,
-        height: 20,
-        // color: Colors.greenAccent,
-        child: Center(
-          child: Divider(),
-        )));
     for (var item in moviebox[0]["casts"]) {
       tiles.add(new InkWell(
-        onTap: () {
-          // print(item["id"]);
-        },
-        child: Container(
-          width: 75,
-          margin: EdgeInsets.fromLTRB(3, 8, 3, 8),
-          // color: Colors.greenAccent,
-          child: Column(children: <Widget>[
-            Card(
-              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
-              child: Container(
-                child: item["avatars"] != null
-                    ? Image.network(
-                        item["avatars"]["small"],
-                        fit: BoxFit.cover,
-                      )
-                    : Center(
-                        child: Text("演员找不到"),
-                      ),
-              ),
-            ),
-            Container(
-              alignment: Alignment.center,
-              margin: EdgeInsets.fromLTRB(0, 6, 0, 0),
-              child: Column(children: <Widget>[
-                Text(
-                  item["name"],
-                  maxLines: 1,
-                  style: TextStyle(fontSize: 12),
-                ),
-                Text(
-                  item["name_en"],
-                  maxLines: 1,
-                  style: TextStyle(fontSize: 8),
+          onTap: () {},
+          child: item["avatars"] != null
+              ? ListTile(
+                  title: Text(
+                    item["name"] + "（主演）",
+                  ),
+                  subtitle: Text(item["name_en"]),
+                  leading: CircleAvatar(
+                    maxRadius: 26,
+                    backgroundImage: NetworkImage(
+                      item["avatars"]["small"],
+                    ),
+                  ),
                 )
-              ]),
-            )
-          ]),
-        ),
-      ));
+              : Container()));
     }
-    content = SingleChildScrollView(
-        scrollDirection: Axis.horizontal, child: Row(children: tiles));
+    content = ListView(children: tiles);
+
     return content;
   }
 
@@ -385,40 +341,81 @@ bodys(double wids, BuildContext context, List moviebox, Widget exampleWidget,
       Container(
         child: ListTile(
           contentPadding: EdgeInsets.fromLTRB(14, 0, 10, 0),
-          // trailing: Icon(Icons.keyboard_arrow_right),
+          trailing: Icon(Icons.keyboard_arrow_right),
           dense: true,
-          // onTap: () {},
+          onTap: () {
+            Navigator.push(
+              context,
+              PageRouteBuilder(
+                transitionDuration: Duration(milliseconds: 500), //动画时间为500毫秒
+                pageBuilder: (BuildContext context, Animation animation,
+                    Animation secondaryAnimation) {
+                  return new FadeTransition(
+                    //使用渐隐渐入过渡,
+                    opacity: animation,
+                    child: Scaffold(
+                        appBar: AppBar(title: Text("演职人员")),
+                        body: actors), //路由B
+                  );
+                },
+              ),
+            );
+          },
           title: Text('导演/编剧/主演'),
         ),
       ),
-      Container(
-        decoration: BoxDecoration(
-          // color: Theme.of(context).cardColor,
-          borderRadius: BorderRadius.circular(14.0),
-        ),
-        margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-        padding: EdgeInsets.all(0),
-        child: actors,
-      ),
+
       //剧照
       Container(
         child: ListTile(
           contentPadding: EdgeInsets.fromLTRB(14, 0, 10, 0),
           trailing: Icon(Icons.keyboard_arrow_right),
           dense: true,
-          onTap: () {},
+          onTap: () {
+            Navigator.push(
+              context,
+              PageRouteBuilder(
+                transitionDuration: Duration(milliseconds: 300), //动画时间为500毫秒
+                pageBuilder: (BuildContext context, Animation animation,
+                    Animation secondaryAnimation) {
+                  return new FadeTransition(
+                    //使用渐隐渐入过渡,
+                    opacity: animation,
+                    child: Scaffold(
+                        appBar: AppBar(title: Text("剧照")),
+                        body: GridView.builder(
+                            gridDelegate:
+                                SliverGridDelegateWithFixedCrossAxisCount(
+                                    crossAxisCount: 3, //横轴三个子widget
+                                    childAspectRatio: 1.0 //宽高比为1时，子widget
+                                    ),
+                            itemCount: moviebox[0]["photos"].length,
+                            itemBuilder: (context, index) {
+                              return Container(
+                                margin: EdgeInsets.fromLTRB(2, 2, 2, 2),
+                                child: Image.network(
+                                  moviebox[0]["photos"][index]["image"],
+                                  fit: BoxFit.cover,
+                                ),
+                              );
+                            })), //路由B
+                  );
+                },
+              ),
+            );
+          },
           title: Text('剧照'),
         ),
       ),
-      Container(
-        decoration: BoxDecoration(
-          // color: Theme.of(context).cardColor,
-          borderRadius: BorderRadius.circular(14.0),
-        ),
-        margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
-        padding: EdgeInsets.all(0),
-        child: photo,
-      ),
+      // Container(
+      //   decoration: BoxDecoration(
+      //     // color: Theme.of(context).cardColor,
+      //     borderRadius: BorderRadius.circular(14.0),
+      //   ),
+      //   margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
+      //   padding: EdgeInsets.all(0),
+      //   // child: photo,
+      // ),
       Divider(),
       //电影属性
       Container(

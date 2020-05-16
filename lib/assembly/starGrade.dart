@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-// import 'dart:math';
 
+// import 'dart:math';
+//评分star math
 Widget starGrade(int aa, int type) {
   int full = (aa / 10).floor();
   int bor = (aa - (aa / 10).floor() * 10);
@@ -23,6 +24,7 @@ Widget starGrade(int aa, int type) {
   return content;
 }
 
+//评分star
 Widget star(int del, int type) {
   if (del == 0) {
     return Icon(
@@ -45,6 +47,7 @@ Widget star(int del, int type) {
   }
 }
 
+//评分star math
 Widget perStar(int stars) {
   List<Widget> tiles = [];
   Widget content;
@@ -58,6 +61,7 @@ Widget perStar(int stars) {
   return content;
 }
 
+//评分star
 perstarshow(int type) {
   if (type == 1) {
     return Icon(
@@ -72,27 +76,4 @@ perstarshow(int type) {
       size: 12,
     );
   }
-}
-
-error() {
-  return Center(
-    child: Container(
-      width: 30.0,
-      height: 30.0,
-      child: Text("加载失败error"),
-    ),
-  );
-}
-
-loading() {
-  return Center(
-    child: Container(
-      width: 30.0,
-      height: 30.0,
-      child: CircularProgressIndicator(
-        backgroundColor: Colors.grey[200],
-        valueColor: AlwaysStoppedAnimation(Colors.blue),
-      ),
-    ),
-  );
 }

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flag/Theme/theme.dart';
 import 'package:provider/provider.dart';
 // import 'package:scoped_model/scoped_model.dart';
-import 'package:flag/routers/shareApi.dart';
+import 'package:flag/api/shareApi.dart';
 
 class StylePage extends StatefulWidget {
   StylePage({Key key}) : super(key: key);

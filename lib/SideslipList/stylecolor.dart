@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flag/Theme/theme.dart';
 import 'package:provider/provider.dart';
-import 'package:flag/routers/shareApi.dart';
+import 'package:flag/api/shareApi.dart';
 
 class StyleColorPage extends StatefulWidget {
   StyleColorPage({Key key}) : super(key: key);

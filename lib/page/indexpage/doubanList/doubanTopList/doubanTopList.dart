@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flag/assembly/starGrade.dart';
-import 'package:flag/routers/shareApi.dart';
+import 'package:flag/api/shareApi.dart';
 import 'package:dio/dio.dart';
 import 'dart:convert';
+import 'package:flag/assembly/loadProcess.dart';
 
 class OtherListPage extends StatefulWidget {
   OtherListPage({Key key}) : super(key: key);
@@ -10,6 +11,7 @@ class OtherListPage extends StatefulWidget {
   OtherListPageState createState() => OtherListPageState();
 }
 
+//豆瓣口碑榜+票房榜
 class OtherListPageState extends State<OtherListPage> {
   bool unloing = false;
   var apiurl;

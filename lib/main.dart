@@ -7,7 +7,7 @@ import 'package:provider/provider.dart';
 import 'package:flag/Theme/theme.dart';
 // import 'package:flag/DrawList/Style.dart';
 // import 'package:scoped_model/scoped_model.dart';
-import 'package:flag/routers/shareApi.dart';
+import 'package:flag/api/shareApi.dart';
 
 void main() async {
   int themecolor = await getInt("themecolor");
@@ -25,7 +25,6 @@ void main() async {
     darknum = 0;
     themecolornum = themecolor;
   } else if (dark == null && themecolor == null) {
-    print(themecolor);
     darknum = 0;
     themecolornum = 0;
   } else {
@@ -47,25 +46,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        // 初始化路由
-        initialRoute: '/',
-        // 定义路由
-        onGenerateRoute: onGenerateRoute,
-        // 测试书签
-        debugShowCheckedModeBanner: false,
-        // 网格
-        debugShowMaterialGrid: false,
-        // 主题色
-        theme: ThemeData(
-          primaryColor: colorsList[Provider.of<Counter>(context).countColor],
-          brightness: nightList[Provider.of<Counter>(context).count],
-        ),
-        darkTheme: ThemeData(
-            primaryColor: Provider.of<Counter>(context).countColorDark == 1
-                ? colorsList[9]
-                : colorsList[Provider.of<Counter>(context).countColor],
-            brightness: Provider.of<Counter>(context).countColorDark == 1
-                ? Brightness.dark
-                : nightList[Provider.of<Counter>(context).count]));
+      // 初始化路由
+      initialRoute: '/',
+      // 定义路由
+      onGenerateRoute: onGenerateRoute,
+      // 测试书签
+      debugShowCheckedModeBanner: false,
+      // 网格
+      debugShowMaterialGrid: false,
+      // 主题色
+      theme: themedata(context),
+      darkTheme: themedataDark(context),
+    );
   }
 }

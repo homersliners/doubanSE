@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flag/page/indexpage/dbTopList/doubanTop.dart';
+import 'package:flag/page/indexpage/doubanList/doubanTop.dart';
 import 'package:flag/tabs/Tabs.dart';
-import "package:flag/DrawList/About.dart";
-import 'package:flag/DrawList/Setting.dart';
-import 'package:flag/DrawList/Style.dart';
-import 'package:flag/DrawList/User.dart';
-import 'package:flag/page/indexpage/detailmovie.dart';
-import 'package:flag/DrawList/stylecolor.dart';
-import 'package:flag/page/indexpage/dbTopList/dbTopKP/movieKP.dart';
-import 'package:flag/page/indexpage/dbTdetailper.dart';
-import 'package:flag/page/indexpage/dbTopList/dbTopnew/movieNew.dart';
-import 'package:flag/page/indexpage/dbTopList/dbTopList250/dbTdetail.dart';
+import "package:flag/SideslipList/About.dart";
+import 'package:flag/SideslipList/Setting.dart';
+import 'package:flag/SideslipList/Style.dart';
+import 'package:flag/SideslipList/User.dart';
+import 'package:flag/page/indexpage/movie.dart';
+import 'package:flag/SideslipList/stylecolor.dart';
+import 'package:flag/page/indexpage/doubanList/doubanTopList/doubanTopList.dart';
+// import 'package:flag/page/indexpage/dbTdetailper.dart';
+import 'package:flag/page/indexpage/doubanList/doubanNewTopList/movieNew.dart';
+import 'package:flag/page/indexpage/doubanList/dbTopList250/dbTdetail.dart';
 
 final routes = {
   '/dbtop': (context) => DoubanTopPage(),
@@ -22,7 +22,7 @@ final routes = {
   '/dtmovie': (context) => DetailmoviePage(),
   '/stylecolor': (context) => StyleColorPage(),
   '/edtdetail': (context) => DbTdetailPage(),
-  '/dtmPer': (context) => DbdetailPerPage(),
+  // '/Moviemore': (context) => Moviemore(),
   '/newMovList': (context) => MovieNewListPage(),
   '/otherToplist': (context) => OtherListPage(),
 };
