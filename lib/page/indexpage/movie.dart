@@ -22,6 +22,14 @@ class DetailmoviePageState extends State<DetailmoviePage> {
   DetailmoviePageState({this.title = "电影"});
   //简介
   bool showLong = false;
+  //停止请求
+  _ungetTop() async {
+    CancelToken token = new CancelToken();
+    Dio().get(apiurl, cancelToken: token);
+// cancel the requests with "cancelled" message.
+    token.cancel("cancelled");
+  }
+
   _getApi() async {
     await getid();
     try {
@@ -253,11 +261,11 @@ class DetailmoviePageState extends State<DetailmoviePage> {
               : error(),
         ),
         onWillPop: () async {
-          if (moviebox.length == 0 && unloing != true) {
-            return false;
-          } else {
+          if (moviebox.length == 0) {
+            await this._ungetTop();
             return true;
           }
+          return true;
         });
   }
 }
