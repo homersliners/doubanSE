@@ -122,7 +122,14 @@ class DbTdetailPageState extends State<DbTdetailPage> {
                     "选择排行榜",
                     style: TextStyle(color: Theme.of(context).hintColor),
                   ),
-                  items: this._appbarchoose(),
+                  items: listOne.length == 0
+                      ? [
+                          DropdownMenuItem(
+                            child: Text('无内容'),
+                            value: 1,
+                          ),
+                        ]
+                      : this._appbarchoose(),
                   onChanged: (value) {
                     //禁止重复点击和加载中切换
                     if (value * 10 != pagestart - 1 && listOne.length != 0) {

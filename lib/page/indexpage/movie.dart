@@ -66,11 +66,12 @@ class DetailmoviePageState extends State<DetailmoviePage> {
     this._getApi();
   }
 
+//简介
   Widget showmore() {
     return InkWell(
       onTap: () {
         setState(() {
-          // showLong = true;
+          showLong = true;
         });
       },
       child: Text(
@@ -104,9 +105,13 @@ class DetailmoviePageState extends State<DetailmoviePage> {
     Widget content;
     for (var item in moviebox[0]["directors"]) {
       tiles.add(new InkWell(
-          onTap: () {},
+          onTap: () {
+            addInt(keys: "actorDetail", values: int.parse(item["id"]));
+            Navigator.pushNamed(context, '/actor');
+          },
           child: item["avatars"] != null
               ? ListTile(
+                  dense: true,
                   title: Text(
                     item["name"] + "（导演）",
                   ),
@@ -122,9 +127,13 @@ class DetailmoviePageState extends State<DetailmoviePage> {
     }
     for (var item in moviebox[0]["writers"]) {
       tiles.add(new InkWell(
-          onTap: () {},
+          onTap: () {
+            addInt(keys: "actorDetail", values: int.parse(item["id"]));
+            Navigator.pushNamed(context, '/actor');
+          },
           child: item["avatars"] != null
               ? ListTile(
+                  dense: true,
                   title: Text(
                     item["name"] + "（编剧）",
                   ),
@@ -140,9 +149,13 @@ class DetailmoviePageState extends State<DetailmoviePage> {
     }
     for (var item in moviebox[0]["casts"]) {
       tiles.add(new InkWell(
-          onTap: () {},
+          onTap: () {
+            addInt(keys: "actorDetail", values: int.parse(item["id"]));
+            Navigator.pushNamed(context, '/actor');
+          },
           child: item["avatars"] != null
               ? ListTile(
+                  dense: true,
                   title: Text(
                     item["name"] + "（主演）",
                   ),
@@ -296,7 +309,6 @@ bodys(double wids, BuildContext context, List moviebox, Widget exampleWidget,
             elevation: 8,
           ),
           Container(
-
               // color: Colors.yellowAccent,
               width: wids - 130,
               padding: EdgeInsets.fromLTRB(20, 18, 10, 0),
@@ -431,7 +443,6 @@ bodys(double wids, BuildContext context, List moviebox, Widget exampleWidget,
         child: exampleWidget,
       ),
       //评论
-
       Container(
           decoration: BoxDecoration(
             color: Theme.of(context).cardColor,
@@ -439,7 +450,11 @@ bodys(double wids, BuildContext context, List moviebox, Widget exampleWidget,
           ),
           margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
           padding: EdgeInsets.fromLTRB(15, 8, 15, 20),
-          child: InkWell(onTap: () {}, child: popularComments)),
+          child: InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, '/comment');
+              },
+              child: popularComments)),
     ],
   );
 }
@@ -469,5 +484,6 @@ othername(List box) {
   for (var i = 0; i < box[0]["aka"].length; i++) {
     type = type + " " + box[0]["aka"][i].toString();
   }
+
   return type;
 }

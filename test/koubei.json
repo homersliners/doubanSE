@@ -1,361 +1,596 @@
 {
-    "rating": {
-        "max": 10,
-        "average": 9.2,
-        "details": {
-            "1": 1.0,
-            "3": 41.0,
-            "2": 2.0,
-            "5": 423.0,
-            "4": 177.0
-        },
-        "stars": "45",
-        "min": 0
-    },
-    "reviews_count": 3,
-    "videos": [],
-    "wish_count": 1632,
-    "original_title": "A Secret Love",
-    "blooper_urls": [],
-    "collect_count": 866,
-    "images": {
-        "small": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2598331221.jpg",
-        "large": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2598331221.jpg",
-        "medium": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2598331221.jpg"
-    },
-    "douban_site": "",
-    "year": "2020",
-    "popular_comments": [
-        {
-            "rating": {
-                "max": 5,
-                "value": 4.0,
-                "min": 0
-            },
-            "useful_count": 4,
-            "author": {
-                "uid": "babulliu",
-                "avatar": "https://img9.doubanio.com/icon/u42097517-14.jpg",
-                "signature": "Festina Lente",
-                "alt": "https://www.douban.com/people/babulliu/",
-                "id": "42097517",
-                "name": "把噗"
-            },
-            "subject_id": "34968314",
-            "content": "Love is \nthe best thing\nin our world",
-            "created_at": "2020-04-30 00:25:36",
-            "id": "2364959909"
-        },
-        {
-            "rating": {
-                "max": 5,
-                "value": 4.0,
-                "min": 0
-            },
-            "useful_count": 17,
-            "author": {
-                "uid": "54273337",
-                "avatar": "https://img9.doubanio.com/icon/u54273337-8.jpg",
-                "signature": "每一步都必然所至",
-                "alt": "https://www.douban.com/people/54273337/",
-                "id": "54273337",
-                "name": "说明书"
-            },
-            "subject_id": "34968314",
-            "content": "虽然直到暮年才能尽享阳光下的爱情，但\n路灯下的表白，沙尘暴里的亲吻，撕掉署名的情书，72个年头的拥抱，这些小心翼翼的爱意同样炽热！",
-            "created_at": "2020-04-29 18:58:21",
-            "id": "2364059294"
-        },
-        {
-            "rating": {
-                "max": 5,
-                "value": 4.0,
-                "min": 0
-            },
-            "useful_count": 4,
-            "author": {
-                "uid": "hashimotomomii",
-                "avatar": "https://img9.doubanio.com/icon/u3766915-13.jpg",
-                "signature": "咦？",
-                "alt": "https://www.douban.com/people/hashimotomomii/",
-                "id": "3766915",
-                "name": "阿莱"
-            },
-            "subject_id": "34968314",
-            "content": "相伴72年...我怕是都活不了这么久...",
-            "created_at": "2020-04-30 20:20:04",
-            "id": "2365854328"
-        },
-        {
-            "rating": {
-                "max": 5,
-                "value": 5.0,
-                "min": 0
-            },
-            "useful_count": 14,
-            "author": {
-                "uid": "140007412",
-                "avatar": "https://img9.doubanio.com/icon/u140007412-2.jpg",
-                "signature": "",
-                "alt": "https://www.douban.com/people/140007412/",
-                "id": "140007412",
-                "name": "呆萌喵星人D"
-            },
-            "subject_id": "34968314",
-            "content": "/Netflix/ 好好哭...72年的陪伴，是秘密却又小心翼翼的爱。爱是什么？爱是大方给予也是小心占有，爱是走过暗淡岁月却仍能紧紧相拥，爱是一路相伴携手同行，爱是几十年后在亲人见证下的一个简单的吻。爱可以有很多种定义，但是最私人的那一份，是'我们'。",
-            "created_at": "2020-04-29 16:45:56",
-            "id": "2364325791"
-        }
-    ],
-    "alt": "https://movie.douban.com/subject/34968314/",
-    "id": "34968314",
-    "mobile_url": "https://movie.douban.com/subject/34968314/mobile",
-    "photos_count": 27,
-    "pubdate": "",
-    "title": "隐秘的爱",
-    "do_count": null,
-    "has_video": false,
-    "share_url": "https://m.douban.com/movie/subject/34968314",
-    "seasons_count": null,
-    "languages": [
-        "英语"
-    ],
-    "schedule_url": "",
-    "writers": [
-        {
-            "avatars": null,
-            "name_en": "",
-            "name": "Chris Bolan",
-            "alt": null,
-            "id": null
-        },
-        {
-            "avatars": {
-                "small": "https://img9.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
-                "large": "https://img9.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
-                "medium": "https://img9.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
-            },
-            "name_en": "Alexa L. Fogel",
-            "name": "Alexa L. Fogel",
-            "alt": "https://movie.douban.com/celebrity/1283914/",
-            "id": "1283914"
-        },
-        {
-            "avatars": null,
-            "name_en": "",
-            "name": "Brendan Mason",
-            "alt": null,
-            "id": null
-        }
-    ],
-    "pubdates": [
-        "2020-04-29(美国)"
-    ],
     "website": "",
-    "tags": [
-        "纪录片",
-        "女性",
-        "Netflix",
-        "LGBT",
-        "美国",
-        "LGBTQ",
-        "同性",
-        "2020",
-        "同性恋",
-        "Documentary"
+    "mobile_url": "https://movie.douban.com/celebrity/1044707/mobile",
+    "aka_en": [
+        "The People's Champion(昵称)",
+        "The Brahma Bull(昵称)",
+        "The Great One(昵称)",
+        "The Rock(昵称)",
+        "Dwayne Douglas Johnson(本名)"
     ],
-    "has_schedule": false,
-    "durations": [
-        "82分钟"
-    ],
-    "genres": [
-        "纪录片",
-        "同性"
-    ],
-    "collection": null,
-    "trailers": [
+    "name": "道恩·强森",
+    "works": [
         {
-            "medium": "https://img9.doubanio.com/img/trailer/medium/2601930640.jpg?1588908025",
-            "title": "预告片",
-            "subject_id": "34968314",
-            "alt": "https://movie.douban.com/trailer/261415/",
-            "small": "https://img9.doubanio.com/img/trailer/small/2601930640.jpg?1588908025",
-            "resource_url": "http://vt1.doubanio.com/202005081718/dea7e786d9b5c9f5bda99dc7dd528439/view/movie/M/302610415.mp4",
-            "id": "261415"
+            "roles": [
+                "演员"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 9.2,
+                    "details": {
+                        "1": 6.0,
+                        "3": 89.0,
+                        "2": 13.0,
+                        "5": 1218.0,
+                        "4": 431.0
+                    },
+                    "stars": "50",
+                    "min": 0
+                },
+                "genres": [
+                    "喜剧",
+                    "音乐"
+                ],
+                "title": "周六夜现场 第一季",
+                "casts": [
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1408438010.98.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1408438010.98.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1408438010.98.jpg"
+                        },
+                        "name_en": "Don Pardo",
+                        "name": "唐·帕尔多",
+                        "alt": "https://movie.douban.com/celebrity/1126676/",
+                        "id": "1126676"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1398167410.67.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1398167410.67.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1398167410.67.jpg"
+                        },
+                        "name_en": "Lenny Pickett",
+                        "name": "Lenny Pickett",
+                        "alt": "https://movie.douban.com/celebrity/1339757/",
+                        "id": "1339757"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p57847.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p57847.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p57847.jpg"
+                        },
+                        "name_en": "Darrell Hammond",
+                        "name": "达瑞尔·哈蒙德",
+                        "alt": "https://movie.douban.com/celebrity/1027462/",
+                        "id": "1027462"
+                    }
+                ],
+                "durations": [
+                    "90分钟"
+                ],
+                "collect_count": 2588,
+                "mainland_pubdate": "",
+                "has_video": false,
+                "original_title": "Saturday Night Live",
+                "subtype": "tv",
+                "directors": [
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p48858.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p48858.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p48858.jpg"
+                        },
+                        "name_en": "Lorne Michaels",
+                        "name": "洛恩·迈克尔斯",
+                        "alt": "https://movie.douban.com/celebrity/1041290/",
+                        "id": "1041290"
+                    }
+                ],
+                "pubdates": [
+                    "1975-10-11(美国)"
+                ],
+                "year": "1975",
+                "images": {
+                    "small": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2503284915.jpg",
+                    "large": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2503284915.jpg",
+                    "medium": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2503284915.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/1887452/",
+                "id": "1887452"
+            }
+        },
+        {
+            "roles": [
+                "演员"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 9.0,
+                    "details": {
+                        "1": 6.0,
+                        "3": 34.0,
+                        "2": 4.0,
+                        "5": 278.0,
+                        "4": 133.0
+                    },
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "动作",
+                    "冒险",
+                    "科幻"
+                ],
+                "title": "星际旅行：重返地球 第一季",
+                "casts": [
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p37472.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p37472.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p37472.jpg"
+                        },
+                        "name_en": "Kate Mulgrew",
+                        "name": "凯特·穆格鲁",
+                        "alt": "https://movie.douban.com/celebrity/1048169/",
+                        "id": "1048169"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p49927.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p49927.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p49927.jpg"
+                        },
+                        "name_en": "Robert Beltran",
+                        "name": "罗伯特·贝尔特兰",
+                        "alt": "https://movie.douban.com/celebrity/1055898/",
+                        "id": "1055898"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p7860.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p7860.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p7860.jpg"
+                        },
+                        "name_en": "Roxann Dawson",
+                        "name": "罗克珊·道森",
+                        "alt": "https://movie.douban.com/celebrity/1049763/",
+                        "id": "1049763"
+                    }
+                ],
+                "durations": [
+                    "45分钟"
+                ],
+                "collect_count": 758,
+                "mainland_pubdate": "",
+                "has_video": false,
+                "original_title": "Star Trek: Voyager",
+                "subtype": "tv",
+                "directors": [
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p44148.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p44148.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p44148.jpg"
+                        },
+                        "name_en": "Rick Berman",
+                        "name": "Rick Berman",
+                        "alt": "https://movie.douban.com/celebrity/1014340/",
+                        "id": "1014340"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p44147.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p44147.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p44147.jpg"
+                        },
+                        "name_en": "Michael Piller",
+                        "name": "迈克尔·皮勒",
+                        "alt": "https://movie.douban.com/celebrity/1018474/",
+                        "id": "1018474"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/f/movie/ca527386eb8c4e325611e22dfcb04cc116d6b423/pics/movie/celebrity-default-small.png",
+                            "large": "https://img9.doubanio.com/f/movie/63acc16ca6309ef191f0378faf793d1096a3e606/pics/movie/celebrity-default-large.png",
+                            "medium": "https://img9.doubanio.com/f/movie/8dd0c794499fe925ae2ae89ee30cd225750457b4/pics/movie/celebrity-default-medium.png"
+                        },
+                        "name_en": "Jeri Taylor",
+                        "name": "Jeri Taylor",
+                        "alt": "https://movie.douban.com/celebrity/1010761/",
+                        "id": "1010761"
+                    }
+                ],
+                "pubdates": [
+                    "1995-01-16(美国)"
+                ],
+                "year": "1995",
+                "images": {
+                    "small": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2511543542.jpg",
+                    "large": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2511543542.jpg",
+                    "medium": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2511543542.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/1949822/",
+                "id": "1949822"
+            }
+        },
+        {
+            "roles": [
+                "演员"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 8.9,
+                    "details": {
+                        "1": 5.0,
+                        "3": 162.0,
+                        "2": 8.0,
+                        "5": 980.0,
+                        "4": 573.0
+                    },
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "喜剧",
+                    "爱情"
+                ],
+                "title": "70年代秀 第一季",
+                "casts": [
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p22320.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p22320.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p22320.jpg"
+                        },
+                        "name_en": "Mila Kunis",
+                        "name": "米拉·库尼斯",
+                        "alt": "https://movie.douban.com/celebrity/1003481/",
+                        "id": "1003481"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p10958.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p10958.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p10958.jpg"
+                        },
+                        "name_en": "Danny Masterson",
+                        "name": "丹尼·马斯特森",
+                        "alt": "https://movie.douban.com/celebrity/1031859/",
+                        "id": "1031859"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1375588189.67.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1375588189.67.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1375588189.67.jpg"
+                        },
+                        "name_en": "Laura Prepon",
+                        "name": "劳拉·普莱潘",
+                        "alt": "https://movie.douban.com/celebrity/1031837/",
+                        "id": "1031837"
+                    }
+                ],
+                "durations": [
+                    "22分钟"
+                ],
+                "collect_count": 2646,
+                "mainland_pubdate": "",
+                "has_video": false,
+                "original_title": "That '70s Show",
+                "subtype": "tv",
+                "directors": [
+                    {
+                        "avatars": null,
+                        "name_en": "",
+                        "name": "David Trainer",
+                        "alt": null,
+                        "id": null
+                    }
+                ],
+                "pubdates": [
+                    "1998-08-23(美国)"
+                ],
+                "year": "1998",
+                "images": {
+                    "small": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2510872466.jpg",
+                    "large": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2510872466.jpg",
+                    "medium": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2510872466.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/1787158/",
+                "id": "1787158"
+            }
+        },
+        {
+            "roles": [
+                "配音"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 8.6,
+                    "details": {
+                        "1": 7.0,
+                        "3": 184.0,
+                        "2": 30.0,
+                        "5": 690.0,
+                        "4": 447.0
+                    },
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "动作",
+                    "动画",
+                    "冒险"
+                ],
+                "title": "变形金刚：领袖之证 第一季",
+                "casts": [
+                    {
+                        "avatars": null,
+                        "name_en": "",
+                        "name": "Sumalee Montano",
+                        "alt": null,
+                        "id": null
+                    },
+                    {
+                        "avatars": null,
+                        "name_en": "",
+                        "name": "Josh Keaton",
+                        "alt": null,
+                        "id": null
+                    },
+                    {
+                        "avatars": null,
+                        "name_en": "",
+                        "name": "Kevin Michael Richardson",
+                        "alt": null,
+                        "id": null
+                    }
+                ],
+                "durations": [
+                    "22分钟"
+                ],
+                "collect_count": 1894,
+                "mainland_pubdate": "",
+                "has_video": true,
+                "original_title": "Transformers Prime",
+                "subtype": "tv",
+                "directors": [
+                    {
+                        "avatars": null,
+                        "name_en": "",
+                        "name": "David Hartman",
+                        "alt": null,
+                        "id": null
+                    },
+                    {
+                        "avatars": null,
+                        "name_en": "",
+                        "name": "Todd Waterman",
+                        "alt": null,
+                        "id": null
+                    },
+                    {
+                        "avatars": null,
+                        "name_en": "",
+                        "name": "Vinton Heuck",
+                        "alt": null,
+                        "id": null
+                    },
+                    {
+                        "avatars": null,
+                        "name_en": "",
+                        "name": "Shaunt Nigoghossian",
+                        "alt": null,
+                        "id": null
+                    }
+                ],
+                "pubdates": [
+                    "2010-10-26(美国)"
+                ],
+                "year": "2010",
+                "images": {
+                    "small": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2516242541.jpg",
+                    "large": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2516242541.jpg",
+                    "medium": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2516242541.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/5151730/",
+                "id": "5151730"
+            }
+        },
+        {
+            "roles": [
+                "演员"
+            ],
+            "subject": {
+                "rating": {
+                    "max": 10,
+                    "average": 8.5,
+                    "details": {
+                        "1": 8.0,
+                        "3": 80.0,
+                        "2": 12.0,
+                        "5": 261.0,
+                        "4": 188.0
+                    },
+                    "stars": "45",
+                    "min": 0
+                },
+                "genres": [
+                    "剧情",
+                    "喜剧",
+                    "运动"
+                ],
+                "title": "球手们 第五季",
+                "casts": [
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p45621.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p45621.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p45621.jpg"
+                        },
+                        "name_en": "Dwayne Johnson",
+                        "name": "道恩·强森",
+                        "alt": "https://movie.douban.com/celebrity/1044707/",
+                        "id": "1044707"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p8583.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p8583.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p8583.jpg"
+                        },
+                        "name_en": "Kevin Durand",
+                        "name": "凯文·杜兰",
+                        "alt": "https://movie.douban.com/celebrity/1013790/",
+                        "id": "1013790"
+                    },
+                    {
+                        "avatars": {
+                            "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p12583.jpg",
+                            "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p12583.jpg",
+                            "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p12583.jpg"
+                        },
+                        "name_en": "Arielle Kebbel",
+                        "name": "阿莉尔·凯贝尔",
+                        "alt": "https://movie.douban.com/celebrity/1004590/",
+                        "id": "1004590"
+                    }
+                ],
+                "durations": [],
+                "collect_count": 713,
+                "mainland_pubdate": "",
+                "has_video": false,
+                "original_title": "Ballers",
+                "subtype": "tv",
+                "directors": [],
+                "pubdates": [
+                    "2019-08-25(美国)"
+                ],
+                "year": "2019",
+                "images": {
+                    "small": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2565421223.jpg",
+                    "large": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2565421223.jpg",
+                    "medium": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2565421223.jpg"
+                },
+                "alt": "https://movie.douban.com/subject/30427542/",
+                "id": "30427542"
+            }
         }
     ],
-    "episodes_count": null,
-    "trailer_urls": [
-        "http://vt1.doubanio.com/202005081718/dea7e786d9b5c9f5bda99dc7dd528439/view/movie/M/302610415.mp4"
+    "name_en": "Dwayne Johnson",
+    "gender": "男",
+    "professions": [
+        "",
+        "",
+        "制片人",
+        "",
+        "编剧"
     ],
-    "has_ticket": false,
-    "bloopers": [],
-    "clip_urls": [],
-    "current_season": null,
-    "casts": [],
-    "countries": [
-        "美国"
-    ],
-    "mainland_pubdate": "",
+    "avatars": {
+        "small": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p45621.jpg",
+        "large": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p45621.jpg",
+        "medium": "https://img9.doubanio.com/view/celebrity/s_ratio_celebrity/public/p45621.jpg"
+    },
+    "summary": "“岩石”（The Rock）本名叫德威恩·约翰逊（Dwayne Johnson），曾是世界摔角联联合会的冠军和明星人物。在体育界成名后，他的触角逐渐伸向影视圈，先是参加了一些电视节目的录制，然后又在连续剧中露过几面。凭着健硕的身材、英俊的相貌和广泛的知名度，“岩石”很快就在这个圈子里得到了不错的口碑。\r\n\r\n岩石， 1972年5月2日 生于美国加州的海沃德，是他们家第3代摔角手，父亲是著名摔角健将洛奇·约翰逊，爷爷彼得·麦维亚也是摔角界的传奇人物。耳闻目染之下，他从小即掌握了一些极佳的摔角技巧。父亲从小对他要求严格，希望长大培养出新一代的摔交手。岩石从8岁时就开始练拳，14岁走进健身房，成年后练就了一副好的体格，他的成功应该归功于他老爸的鼓励和自己的毅力、信心。",
     "photos": [
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932353.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932353.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932353.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932353/",
-            "id": "2601932353",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932353.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2207562906.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2207562906.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2207562906.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/2207562906/",
+            "id": "2207562906",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2207562906.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932340.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932340.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932340.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932340/",
-            "id": "2601932340",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932340.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2080011955.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2080011955.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2080011955.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/2080011955/",
+            "id": "2080011955",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2080011955.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932337.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932337.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932337.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932337/",
-            "id": "2601932337",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932337.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2191691148.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2191691148.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2191691148.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/2191691148/",
+            "id": "2191691148",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2191691148.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932336.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932336.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932336.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932336/",
-            "id": "2601932336",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932336.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2246944285.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2246944285.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2246944285.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/2246944285/",
+            "id": "2246944285",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2246944285.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932335.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932335.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932335.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932335/",
-            "id": "2601932335",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932335.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2562597891.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2562597891.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2562597891.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/2562597891/",
+            "id": "2562597891",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2562597891.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932334.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932334.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932334.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932334/",
-            "id": "2601932334",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932334.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2494991189.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2494991189.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2494991189.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/2494991189/",
+            "id": "2494991189",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2494991189.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932333.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932333.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932333.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932333/",
-            "id": "2601932333",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932333.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p760886169.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p760886169.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p760886169.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/760886169/",
+            "id": "760886169",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p760886169.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932331.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932331.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932331.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932331/",
-            "id": "2601932331",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932331.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p1978806402.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p1978806402.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p1978806402.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/1978806402/",
+            "id": "1978806402",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p1978806402.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601932329.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601932329.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601932329.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601932329/",
-            "id": "2601932329",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601932329.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2078552279.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2078552279.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2078552279.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/2078552279/",
+            "id": "2078552279",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2078552279.jpg"
         },
         {
-            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2601070456.jpg",
-            "image": "https://img9.doubanio.com/view/photo/l/public/p2601070456.jpg",
-            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2601070456.jpg",
-            "alt": "https://movie.douban.com/photos/photo/2601070456/",
-            "id": "2601070456",
-            "icon": "https://img9.doubanio.com/view/photo/s/public/p2601070456.jpg"
+            "thumb": "https://img9.doubanio.com/view/photo/m/public/p2244133817.jpg",
+            "image": "https://img9.doubanio.com/view/photo/l/public/p2244133817.jpg",
+            "cover": "https://img9.doubanio.com/view/photo/sqs/public/p2244133817.jpg",
+            "alt": "https://movie.douban.com/celebrity/1044707/photo/2244133817/",
+            "id": "2244133817",
+            "icon": "https://img9.doubanio.com/view/photo/s/public/p2244133817.jpg"
         }
     ],
-    "summary": "时光荏苒，岁月如梭，两名女子对二人长达数十载的爱情守口如瓶。但在晚年出柜时，她们也遭遇了一些难题。",
-    "clips": [],
-    "subtype": "movie",
-    "directors": [
-        {
-            "avatars": null,
-            "name_en": "",
-            "name": "Chris Bolan",
-            "alt": null,
-            "id": null
-        }
-    ],
-    "comments_count": 344,
-    "popular_reviews": [
-        {
-            "rating": {
-                "max": 5,
-                "value": 5.0,
-                "min": 0
-            },
-            "title": "To all the LGBTQ+ people in the world",
-            "subject_id": "34968314",
-            "author": {
-                "uid": "120043384",
-                "avatar": "https://img9.doubanio.com/icon/u120043384-1.jpg",
-                "signature": "",
-                "alt": "https://www.douban.com/people/120043384/",
-                "id": "120043384",
-                "name": "OMGitsLilith"
-            },
-            "summary": "What a beautiful, powerful, incredible love story! And, honestly, I've never been this proud to be a lesbian, to be who I really am after watching it! How I wish I could grow old with someone I lov...",
-            "alt": "https://movie.douban.com/review/12569351/",
-            "id": "12569351"
-        },
-        {
-            "rating": {
-                "max": 5,
-                "value": 5.0,
-                "min": 0
-            },
-            "title": "《隐秘的爱》我的爱因你隐秘 也因此伟大！",
-            "subject_id": "34968314",
-            "author": {
-                "uid": "188816133",
-                "avatar": "https://img9.doubanio.com/icon/u188816133-1.jpg",
-                "signature": "",
-                "alt": "https://www.douban.com/people/188816133/",
-                "id": "188816133",
-                "name": "浙江欧阳娜娜"
-            },
-            "summary": "帕特和职业棒球运动员特莉这两名女子于1947年坠入爱河，开始了一场65年的爱情长跑和克服偏见的斗争！ 当特莉的右手臂有颤抖的毛病时，她们决定把自己是同性恋的事情告诉自己家人。她们已经到了人生的关键时刻（特...",
-            "alt": "https://movie.douban.com/review/12554593/",
-            "id": "12554593"
-        },
-        {
-            "rating": {
-                "max": 5,
-                "value": 5.0,
-                "min": 0
-            },
-            "title": "当亚马逊的《现代爱情》不包括拉拉的时候网飞带着《隐秘的爱》来了",
-            "subject_id": "34968314",
-            "author": {
-                "uid": "47480281",
-                "avatar": "https://img9.doubanio.com/icon/u47480281-28.jpg",
-                "signature": "whatever u do",
-                "alt": "https://www.douban.com/people/47480281/",
-                "id": "47480281",
-                "name": "JOKE"
-            },
-            "summary": "每每提到同性之爱，爱不分性别，永远都是默认为男男。比如号称两大天后为LGBT发声 重新演绎《漂洋过海来看你》我激动的打开，也难掩失落，依然是两个男人的故事，我不是说男人的故事不动人，这其实和男人自己无关...",
-            "alt": "https://movie.douban.com/review/12571525/",
-            "id": "12571525"
-        }
-    ],
-    "ratings_count": 765,
+    "birthday": "1972-05-02",
     "aka": [
-        "不能见光的爱(港)"
-    ]
+        "巨石强森",
+        "德威恩·道格拉斯·约翰逊",
+        "唐尼·约翰逊",
+        "岩石",
+        "巨石",
+        "狄维庄逊(港)"
+    ],
+    "alt": "https://movie.douban.com/celebrity/1044707/",
+    "born_place": "美国,加利福尼亚,海沃德",
+    "constellation": "金牛座",
+    "id": "1044707"
 }

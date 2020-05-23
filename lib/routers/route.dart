@@ -8,7 +8,8 @@ import 'package:flag/SideslipList/User.dart';
 import 'package:flag/page/indexpage/movie.dart';
 import 'package:flag/SideslipList/stylecolor.dart';
 import 'package:flag/page/indexpage/doubanList/doubanTopList/doubanTopList.dart';
-// import 'package:flag/page/indexpage/dbTdetailper.dart';
+import 'package:flag/page/indexpage/comment.dart';
+import 'package:flag/page/indexpage/actor.dart';
 import 'package:flag/page/indexpage/doubanList/doubanNewTopList/movieNew.dart';
 import 'package:flag/page/indexpage/doubanList/dbTopList250/dbTdetail.dart';
 
@@ -19,10 +20,11 @@ final routes = {
   '/setting': (context) => SettingPage(),
   '/style': (context) => StylePage(),
   '/user': (context) => UserPage(),
+  '/comment': (context) => CommentPage(),
   '/dtmovie': (context) => DetailmoviePage(),
   '/stylecolor': (context) => StyleColorPage(),
   '/edtdetail': (context) => DbTdetailPage(),
-  // '/Moviemore': (context) => Moviemore(),
+  '/actor': (context) => ActorPage(),
   '/newMovList': (context) => MovieNewListPage(),
   '/otherToplist': (context) => OtherListPage(),
 };

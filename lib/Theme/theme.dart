@@ -48,6 +48,8 @@ class Counter with ChangeNotifier {
   get count => _count;
 }
 
+int nums;
+int darkof;
 List<Brightness> nightList = [Brightness.light, Brightness.dark];
 List<Color> colorsList = [
   Colors.blue,
@@ -90,11 +92,12 @@ List<Text> colorsListText = [
 ];
 
 themedata(BuildContext context) {
+  nums = Provider.of<Counter>(context).countColor;
+  darkof = Provider.of<Counter>(context).count;
   return ThemeData(
-    primaryColor: colorsList[Provider.of<Counter>(context).countColor],
-    brightness: nightList[Provider.of<Counter>(context).count],
-    backgroundColor: colorsFllow[Provider.of<Counter>(context).countColor],
-  );
+      primaryColor: colorsList[Provider.of<Counter>(context).countColor],
+      brightness: nightList[Provider.of<Counter>(context).count],
+      backgroundColor: colorsFllow[Provider.of<Counter>(context).countColor]);
 }
 
 themedataDark(BuildContext context) {
@@ -108,4 +111,16 @@ themedataDark(BuildContext context) {
       brightness: Provider.of<Counter>(context).countColorDark == 1
           ? Brightness.dark
           : nightList[Provider.of<Counter>(context).count]);
+}
+
+assemblyColor() {
+  return Colors.green[600];
+}
+
+loadingColor() {
+  if (darkof == 0) {
+    return colorsList[nums];
+  } else {
+    return Colors.tealAccent;
+  }
 }

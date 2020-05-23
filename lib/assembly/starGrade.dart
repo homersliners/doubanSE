@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flag/Theme/theme.dart';
 
 // import 'dart:math';
 //评分star math
@@ -35,19 +36,19 @@ Widget star(int del, int type) {
   } else if (del == 1) {
     return Icon(
       Icons.star_half,
-      color: Colors.green[600],
+      color: assemblyColor(),
       size: type == 1 ? 20 : 14,
     );
   } else {
     return Icon(
       Icons.star,
-      color: Colors.green[600],
+      color: assemblyColor(),
       size: type == 1 ? 20 : 14,
     );
   }
 }
 
-//评分star math
+//人工打分
 Widget perStar(int stars) {
   List<Widget> tiles = [];
   Widget content;
@@ -66,13 +67,13 @@ perstarshow(int type) {
   if (type == 1) {
     return Icon(
       Icons.star,
-      color: Colors.green[600],
+      color: assemblyColor(),
       size: 12,
     );
   } else {
     return Icon(
       Icons.star_border,
-      color: Colors.teal,
+      color: assemblyColor(),
       size: 12,
     );
   }
