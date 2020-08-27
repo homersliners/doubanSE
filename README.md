@@ -1,9 +1,13 @@
 # doubanSE
-个人练习项目，请勿商用
+个人练习项目
 
-This is a doubanSE testing app that uses flutter.Use the douban API to experience the movie view.
-这是使用flutter框架的豆瓣SE 软件。使用了豆瓣提供的API查看电影资讯....
+基于flutter框架的豆瓣SE 软件。使用了豆瓣提供的API查看电影资讯....
 
-
-### e-mail:l2403928583@163.com
-### wechat:lrh739448406
+api-->文件存储
+assembly-->状态控件
+page-->主页的页面
+routers-->路由配置
+sidesList-->侧边栏的页面
+tabs-->状态栏设计
+Theme-->主题风格设计
+main.dart-->入口文件
